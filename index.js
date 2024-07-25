@@ -7,7 +7,7 @@ const app = express();
 dotenv.config();
 app.use(express.json());
 
-app.post("/", function (req, res) {
+app.get("/", function (req, res) {
   res.send("Home Page - Working");
 });
 
